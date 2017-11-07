@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 
 /**
@@ -26,6 +27,8 @@ public class StateSpaceSolver extends Solver {
     public StateSpaceSolver(Problem problem, boolean bfs) {
         super(problem);
         this.bfs = bfs;
+        deq = new LinkedList();
+        super.setQueue(this.deq);
         
         /* you must provide */
     }
@@ -40,8 +43,11 @@ public class StateSpaceSolver extends Solver {
      */
     @Override
     public void add(Vertex v) {
-        
-	/* you must provide */
+        if(bfs){
+            deq.addLast(v);
+        }else{
+            deq.addFirst(v);
+        }
     }
     
     /**
@@ -67,17 +73,12 @@ public class StateSpaceSolver extends Solver {
         for(String name : super.getProblem().getMover().getMoveNames()){
             Vertex child = new Vertex(super.getProblem().getMover().doMove(name, (State)u.getData()));
             if( child.getData() != null && !occursOnPath(child, u)){
-                //child.setData(super.getSolution().next().getData());
+                child.setDistance(u.getDistance()+1);
                 child.setPredecessor(u);
                 list.add(child);
-                System.out.println("Add");
             }
-            
         }
         return list;
-        
-        
-        
     }
 
     /**
@@ -100,5 +101,5 @@ public class StateSpaceSolver extends Solver {
     
     /* private instance fields here */
     private boolean bfs;
-    private Deque<Vertex> children ;
+    private LinkedList<Vertex> deq;
 }
