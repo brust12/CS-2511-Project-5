@@ -153,7 +153,7 @@ public abstract class Solver {
         updateStats();
         return v;
     }
-     `
+     
     private void updateStats() {
         statistics.incrStat(NUM_OPS);
         statistics.putStat(QUEUE_SIZE, Math.max(statistics.getStat(QUEUE_SIZE), queue.size()));

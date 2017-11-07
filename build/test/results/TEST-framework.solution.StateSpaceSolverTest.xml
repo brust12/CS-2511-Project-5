@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="2" failures="0" hostname="DESKTOP-65EE91F" name="framework.solution.StateSpaceSolverTest" skipped="0" tests="3" time="0.125" timestamp="2017-11-07T06:12:32">
+<testsuite errors="1" failures="1" hostname="Rileys-PC" name="framework.solution.StateSpaceSolverTest" skipped="0" tests="3" time="0.07" timestamp="2017-11-07T20:45:10">
   <properties>
     <property name="netbeans.autoupdate.country" value="US" />
     <property name="javafx.binarycss" value="false" />
@@ -9,7 +9,7 @@
     <property name="ant.core.lib" value="C:\Program Files\NetBeans 8.2\extide\ant\lib\ant.jar" />
     <property name="javadoc.windowtitle" value="" />
     <property name="javafx.preloader.enabled" value="false" />
-    <property name="user.dir" value="C:\Users\riley\Desktop\SAD\ProblemSolver" />
+    <property name="user.dir" value="C:\Users\Riley\Desktop\SAD\CS-2511-Project-5" />
     <property name="java.vm.version" value="25.141-b15" />
     <property name="libs.MySQLDriver.classpath" value="C:\Program Files\NetBeans 8.2\ide\modules\ext\mysql-connector-java-5.1.23-bin.jar" />
     <property name="libs.eclipselinkmodelgen.src" value="" />
@@ -43,10 +43,10 @@
     <property name="libs.jaxb.maven-pom" value="" />
     <property name="os.arch" value="amd64" />
     <property name="libs.eclipselink.src" value="" />
-    <property name="user.name" value="riley" />
+    <property name="user.name" value="Riley" />
     <property name="copylibs.rebase" value="true" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner framework.solution.StateSpaceSolverTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\riley\Desktop\SAD\ProblemSolver\build\test\results\TEST-framework.solution.StateSpaceSolverTest.xml crashfile=C:\Users\riley\Desktop\SAD\ProblemSolver\build\junitvmwatcher5370437935697731941.properties propsfile=C:\Users\riley\Desktop\SAD\ProblemSolver\build\junit3801731154388594775.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner framework.solution.StateSpaceSolverTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Riley\Desktop\SAD\CS-2511-Project-5\build\test\results\TEST-framework.solution.StateSpaceSolverTest.xml crashfile=C:\Users\Riley\Desktop\SAD\CS-2511-Project-5\build\junitvmwatcher2299598526163454364.properties propsfile=C:\Users\Riley\Desktop\SAD\CS-2511-Project-5\build\junit277580178681768964.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -81,7 +81,7 @@
     <property name="javac.debug" value="true" />
     <property name="javadoc.splitindex" value="true" />
     <property name="file.separator" value="\" />
-    <property name="javac.includesfile.binary" value="C:\Users\riley\Desktop\SAD\ProblemSolver\null995472774" />
+    <property name="javac.includesfile.binary" value="C:\Users\Riley\Desktop\SAD\CS-2511-Project-5\null525452769" />
     <property name="libs.junit_4.maven-pom" value="" />
     <property name="javac.test.processorpath" value="C:\Program Files\Java\jdk1.8.0_141\jre/lib/javaws.jar:C:\Program Files\Java\jdk1.8.0_141\jre/lib/deploy.jar:C:\Program Files\Java\jdk1.8.0_141\jre/lib/plugin.jar:build/classes:C:\Program Files\NetBeans 8.2\platform\modules\ext\junit-4.12.jar:C:\Program Files\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar" />
     <property name="netbeans.buildnumber" value="201609300101" />
@@ -92,21 +92,20 @@
     <property name="sun.java.launcher" value="SUN_STANDARD" />
     <property name="libs.hibernate4-persistencemodelgen.javadoc" value="" />
     <property name="libs.jaxb.javadoc" value="C:\Program Files\NetBeans 8.2\ide\docs\jaxb-api-doc.zip" />
-    <property name="org.openide.awt.SwingBrowserImpl.do-not-block-awt" value="false" />
-    <property name="javac.includes.binary" value="C:\Users\riley\Desktop\SAD\ProblemSolver\build\test\classes\framework\solution\StateSpaceSolverTest.class" />
+    <property name="javac.includes.binary" value="C:\Users\Riley\Desktop\SAD\CS-2511-Project-5\build\test\classes\framework\solution\StateSpaceSolverTest.class" />
     <property name="ant.home" value="C:\Program Files\NetBeans 8.2\extide\ant" />
     <property name="libs.junit_4.src" value="C:\Program Files\NetBeans 8.2\platform\docs\junit-4.12-sources.jar" />
     <property name="javafx.run.height" value="600" />
     <property name="libs.testng.classpath" value="C:\Program Files\NetBeans 8.2\platform\modules\ext\testng-6.8.1-dist.jar" />
     <property name="libs.absolutelayout.maven-pom" value="" />
     <property name="ant.java.version" value="1.8" />
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_141\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\Program Files (x86)\Brackets\command;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\riley\AppData\Local\Microsoft\WindowsApps;;." />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_141\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\PROGRAMDATA\ORACLE\JAVA\JAVAPATH;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\NVPACK\ANDROID-SDK-WINDOWS\TOOLS;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\QuickTime\QTSystem\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\Riley\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\NVPACK\android-sdk-windows\platform-tools;C:\NVPACK\android-sdk-windows\build-tools;C:\NVPACK\android-sdk-windows\tools;C:\NVPACK\jdk1.6.0_45\bin;C:\NVPACK\apache-ant-1.8.2\bin;C:\Users\Riley\AppData\Local\Microsoft\WindowsApps;C:\Users\Riley\AppData\Local\GitHubDesktop\bin;." />
     <property name="javadoc.author" value="false" />
     <property name="java.util.logging.config.class" value="org.netbeans.core.startup.TopLogging" />
     <property name="libs.spring-framework400.src" value="" />
     <property name="libs.PostgreSQLDriver.src" value="" />
     <property name="sun.arch.data.model" value="64" />
-    <property name="basedir" value="C:\Users\riley\Desktop\SAD\ProblemSolver" />
+    <property name="basedir" value="C:\Users\Riley\Desktop\SAD\CS-2511-Project-5" />
     <property name="libs.jpa20-persistence.maven-pom" value="" />
     <property name="jar.compress" value="false" />
     <property name="path.separator" value=";" />
@@ -129,7 +128,7 @@
     <property name="libs.swing-layout.javadoc" value="C:\Program Files\NetBeans 8.2\platform\docs\swing-layout-1.0.4-doc.zip" />
     <property name="sun.java2d.dpiaware" value="true" />
     <property name="libs.hibernate4-persistence.maven-pom" value="" />
-    <property name="https.nonProxyHosts" value="localhost|127.0.0.1|DESKTOP-65EE91F" />
+    <property name="https.nonProxyHosts" value="localhost|127.0.0.1|Rileys-PC" />
     <property name="libs.PostgreSQLDriver.maven-pom" value="" />
     <property name="java.class.version" value="52.0" />
     <property name="libs.hibernate4-persistencemodelgen.maven-pom" value="" />
@@ -144,7 +143,7 @@
     <property name="libs.JAXB-ENDORSED.javadoc" value="" />
     <property name="libs.JWSAntTasks.classpath" value="C:\Program Files\NetBeans 8.2\java\ant\extra\org-netbeans-modules-javawebstart-anttasks.jar" />
     <property name="libs.spring-framework300.src" value="" />
-    <property name="empty.dir" value="C:\Users\riley\Desktop\SAD\ProblemSolver\build\empty" />
+    <property name="empty.dir" value="C:\Users\Riley\Desktop\SAD\CS-2511-Project-5\build\empty" />
     <property name="javafx.deploy.backgroundupdate" value="false" />
     <property name="javafx.disable.concurrent.runs" value="false" />
     <property name="version-output" value="java version &quot;1.8" />
@@ -164,7 +163,7 @@
     <property name="libs.MySQLDriver.maven-pom" value="" />
     <property name="libs.hibernate4-persistence.javadoc" value="C:\Program Files\NetBeans 8.2\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
     <property name="javafx.application.implementation.version" value="1.0" />
-    <property name="http.nonProxyHosts" value="localhost|127.0.0.1|DESKTOP-65EE91F" />
+    <property name="http.nonProxyHosts" value="localhost|127.0.0.1|Rileys-PC" />
     <property name="libs.junit_4.javadoc" value="C:\Program Files\NetBeans 8.2\platform\docs\junit-4.12-javadoc.jar" />
     <property name="run.classpath" value="dist/ProblemSolver.jar:C:\Program Files\Java\jdk1.8.0_141\jre/lib/javaws.jar:C:\Program Files\Java\jdk1.8.0_141\jre/lib/deploy.jar:C:\Program Files\Java\jdk1.8.0_141\jre/lib/plugin.jar:build/classes" />
     <property name="endorsed.javafx.ant.classpath" value="." />
@@ -173,7 +172,7 @@
     <property name="libs.jpa2-persistence.maven-pom" value="" />
     <property name="annotation.processing.enabled.in.editor" value="false" />
     <property name="libs.hibernate4-support.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\antlr-2.7.7.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\c3p0-0.9.2.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-c3p0-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\mchange-commons-java-0.2.3.4.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\dom4j-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\ehcache-core-2.4.3.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-ehcache-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-core-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-logging-3.1.3.GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-commons-annotations-4.0.4.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-entitymanager-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\javassist-3.18.1-GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-api-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-simple-1.6.1.jar" />
-    <property name="ant.file.ProblemSolver" value="C:\Users\riley\Desktop\SAD\ProblemSolver\build.xml" />
+    <property name="ant.file.ProblemSolver" value="C:\Users\Riley\Desktop\SAD\CS-2511-Project-5\build.xml" />
     <property name="nb.native.filechooser" value="false" />
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
     <property name="javac.deprecation" value="false" />
@@ -182,7 +181,7 @@
     <property name="javac.processorpath" value="C:\Program Files\Java\jdk1.8.0_141\jre/lib/javaws.jar:C:\Program Files\Java\jdk1.8.0_141\jre/lib/deploy.jar:C:\Program Files\Java\jdk1.8.0_141\jre/lib/plugin.jar" />
     <property name="libs.hamcrest.maven-pom" value="" />
     <property name="javac.compilerargs" value="" />
-    <property name="ant.file" value="C:\Users\riley\Desktop\SAD\ProblemSolver\build.xml" />
+    <property name="ant.file" value="C:\Users\Riley\Desktop\SAD\CS-2511-Project-5\build.xml" />
     <property name="libs.beans-binding.maven-pom" value="" />
     <property name="libs.hibernate4-support.javadoc" value="C:\Program Files\NetBeans 8.2\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
     <property name="libs.beans-binding.src" value="" />
@@ -191,9 +190,9 @@
     <property name="org.openide.major.version" value="IDE/1" />
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
     <property name="javafx.preloader.jar.filename" value="" />
-    <property name="netbeans.user" value="C:\Users\riley\AppData\Roaming\NetBeans\8.2" />
+    <property name="netbeans.user" value="C:\Users\Riley\AppData\Roaming\NetBeans\8.2" />
     <property name="javadoc.additionalparam" value="" />
-    <property name="java.io.tmpdir" value="C:\Users\riley\AppData\Local\Temp\" />
+    <property name="java.io.tmpdir" value="C:\Users\Riley\AppData\Local\Temp\" />
     <property name="java.vendor.url" value="http://java.oracle.com/" />
     <property name="endorsed.classpath.cmd.line.arg" value="" />
     <property name="jna.loaded" value="true" />
@@ -212,14 +211,14 @@
     <property name="libs.spring-framework400.maven-pom" value="" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
     <property name="ant.project.name" value="ProblemSolver" />
-    <property name="netbeans.hash.code" value="unique=NBJDK_EXTIDE_JAVA_JDK0494b6b6c-227b-4986-9572-1d4e82a84fc6_d23f4afe-7b94-4f0d-b042-0fe452d93571" />
-    <property name="netbeans.default_userdir_root" value="C:\Users\riley\AppData\Roaming\NetBeans" />
+    <property name="netbeans.hash.code" value="unique=NBJDK_EXTIDE_JAVA_JDK012f71b00-3e7a-46ba-b20b-a0e697aa39b9_407e7486-c54d-4c82-82a3-54411787d90c" />
+    <property name="netbeans.default_userdir_root" value="C:\Users\Riley\AppData\Roaming\NetBeans" />
     <property name="sun.cpu.isalist" value="amd64" />
     <property name="libs.spring-framework400.javadoc" value="" />
     <property name="libs.CopyLibs.javadoc" value="" />
     <property name="org.openide.specification.version" value="6.2" />
     <property name="javafx.classpath.extension" value="C:\Program Files\Java\jdk1.8.0_141\jre/lib/javaws.jar:C:\Program Files\Java\jdk1.8.0_141\jre/lib/deploy.jar:C:\Program Files\Java\jdk1.8.0_141\jre/lib/plugin.jar" />
-    <property name="user.home" value="C:\Users\riley" />
+    <property name="user.home" value="C:\Users\Riley" />
     <property name="annotation.processing.processors.list" value="" />
     <property name="debug-args-line" value="-Xdebug" />
     <property name="libs.JWSAntTasks.src" value="" />
@@ -241,7 +240,7 @@
     <property name="libs.eclipselinkmodelgen.maven-pom" value="" />
     <property name="ant.file.type.jfx-impl" value="file" />
     <property name="libs.eclipselinkmodelgen.javadoc" value="" />
-    <property name="ant.file.jfx-impl" value="C:\Users\riley\Desktop\SAD\ProblemSolver\nbproject\jfx-impl.xml" />
+    <property name="ant.file.jfx-impl" value="C:\Users\Riley\Desktop\SAD\CS-2511-Project-5\nbproject\jfx-impl.xml" />
     <property name="netbeans.home+have.tests" value="true" />
     <property name="annotation.processing.processor.options" value="" />
     <property name="libs.testng.maven-pom" value="" />
@@ -250,7 +249,7 @@
     <property name="ant.file.type.ProblemSolver" value="file" />
     <property name="jdk.launcher.addexports.4" value="java.desktop/com.sun.java.swing.plaf.windows=ALL-UNNAMED" />
     <property name="jdk.launcher.addexports.3" value="java.desktop/sun.awt.im=ALL-UNNAMED" />
-    <property name="work.dir" value="C:\Users\riley\Desktop\SAD\ProblemSolver" />
+    <property name="work.dir" value="C:\Users\Riley\Desktop\SAD\CS-2511-Project-5" />
     <property name="jdk.launcher.addexports.2" value="java.desktop/java.awt.peer=ALL-UNNAMED" />
     <property name="compile.on.save.unsupported.javafx" value="true" />
     <property name="libs.jaxb.classpath" value="C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\jaxb1-impl.jar;C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\activation.jar;C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\api\jaxb-api.jar;C:\Program Files\NetBeans 8.2\ide\modules\ext\jaxb\api\jsr173_1.0_api.jar" />
@@ -269,9 +268,9 @@
     <property name="nb.junit.batch" value="true" />
     <property name="junit.forkmode" value="perTest" />
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_141\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_141\jre\classes" />
-    <property name="ant.file.ProblemSolver-impl" value="C:\Users\riley\Desktop\SAD\ProblemSolver\nbproject\build-impl.xml" />
+    <property name="ant.file.ProblemSolver-impl" value="C:\Users\Riley\Desktop\SAD\CS-2511-Project-5\nbproject\build-impl.xml" />
     <property name="javac.target" value="1.8" />
-    <property name="built-jar.properties" value="C:\Users\riley\Desktop\SAD\ProblemSolver\build\built-jar.properties" />
+    <property name="built-jar.properties" value="C:\Users\Riley\Desktop\SAD\CS-2511-Project-5\build\built-jar.properties" />
     <property name="build.test.classes.dir" value="build/test/classes" />
     <property name="src.dir" value="src" />
     <property name="annotation.processing.enabled" value="true" />
@@ -302,7 +301,7 @@
     <property name="excludes" value="" />
     <property name="libs.jpa2-persistence.javadoc" value="C:\Program Files\NetBeans 8.2\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
     <property name="apple.laf.useScreenMenuBar" value="true" />
-    <property name="java.class.path" value="C:\Program Files\Java\jdk1.8.0_141\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\plugin.jar;C:\Users\riley\Desktop\SAD\ProblemSolver\build\classes;C:\Program Files\NetBeans 8.2\platform\modules\ext\junit-4.12.jar;C:\Program Files\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar;C:\Users\riley\Desktop\SAD\ProblemSolver\build\test\classes;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant-launcher.jar;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant.jar;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant-junit.jar;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant-junit4.jar" />
+    <property name="java.class.path" value="C:\Program Files\Java\jdk1.8.0_141\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\plugin.jar;C:\Users\Riley\Desktop\SAD\CS-2511-Project-5\build\classes;C:\Program Files\NetBeans 8.2\platform\modules\ext\junit-4.12.jar;C:\Program Files\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar;C:\Users\Riley\Desktop\SAD\CS-2511-Project-5\build\test\classes;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant-launcher.jar;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant.jar;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant-junit.jar;C:\Program Files\NetBeans 8.2\extide\ant\lib\ant-junit4.jar" />
     <property name="libs.absolutelayout.src" value="" />
     <property name="libs.jpa20-persistence.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\eclipselink\javax.persistence_2.1.0.v201304241213.jar" />
     <property name="os.version" value="10.0" />
@@ -327,22 +326,22 @@
     <property name="libs.hibernate4-persistence.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\antlr-2.7.7.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\c3p0-0.9.2.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-c3p0-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\mchange-commons-java-0.2.3.4.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\dom4j-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\ehcache-core-2.4.3.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-ehcache-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-core-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-logging-3.1.3.GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-commons-annotations-4.0.4.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-entitymanager-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\javassist-3.18.1-GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-api-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-simple-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-jpa-2.1-api-1.0.0.Final.jar" />
     <property name="libs.JAXB-ENDORSED.src" value="" />
     <property name="libs.testng.javadoc" value="C:\Program Files\NetBeans 8.2\platform\docs\testng-6.8.1-javadoc.zip" />
-    <property name="user.script" value="" />
     <property name="libs.PostgreSQLDriver.classpath" value="C:\Program Files\NetBeans 8.2\ide\modules\ext\postgresql-9.4.1209.jar" />
+    <property name="user.script" value="" />
     <property name="libs.hibernate4-persistencemodelgen.classpath" value="C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-jpamodelgen-4.3.1.Final.jar" />
     <property name="annotation.processing.source.output" value="build/generated-sources/ap-source-output" />
     <property name="main.class" value="com.javafx.main.Main" />
     <property name="libs.CopyLibs.src" value="" />
     <property name="build.dir" value="build" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.7 compiled on April 9 2016" />
-    <property name="file.encoding" value="Cp1252" />
     <property name="build.classes.excludes" value="**/*.java,**/*.form" />
+    <property name="file.encoding" value="Cp1252" />
     <property name="jdkBug6558476" value="false" />
     <property name="javadoc.nonavbar" value="false" />
     <property name="platform.active" value="default_platform" />
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
   </properties>
-  <testcase classname="framework.solution.StateSpaceSolverTest" name="testSolve" time="0.062">
+  <testcase classname="framework.solution.StateSpaceSolverTest" name="testSolve" time="0.034">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at framework.solution.Solver.search(Solver.java:130)
 	at framework.solution.Solver.solve(Solver.java:91)
@@ -351,14 +350,21 @@
 </error>
   </testcase>
   <testcase classname="framework.solution.StateSpaceSolverTest" name="testOccursOnPath" time="0.0" />
-  <testcase classname="framework.solution.StateSpaceSolverTest" name="testExpand" time="0.0">
-    <error message="Index: 0, Size: 0" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
-	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
-	at java.util.ArrayList.get(ArrayList.java:429)
-	at framework.solution.StateSpaceSolver.expand(StateSpaceSolver.java:70)
-	at framework.solution.StateSpaceSolverTest.testExpand(StateSpaceSolverTest.java:176)
-</error>
+  <testcase classname="framework.solution.StateSpaceSolverTest" name="testExpand" time="0.001">
+    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at framework.solution.StateSpaceSolverTest.testExpand(StateSpaceSolverTest.java:216)
+</failure>
   </testcase>
-  <system-out><![CDATA[]]></system-out>
+  <system-out><![CDATA[Add
+Add
+Add
+Add
+Add
+Add
+Add
+Add
+Add
+Add
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -5,6 +5,7 @@ import framework.problem.Problem;
 import framework.problem.State;
 import java.util.ArrayList;
 import java.util.Deque;
+import java.util.LinkedList;
 import java.util.List;
 
 
@@ -62,13 +63,14 @@ public class StateSpaceSolver extends Solver {
      */
     @Override
     public List<Vertex> expand(Vertex u) {
-        List<Vertex> list = new ArrayList();
+        List<Vertex> list = new LinkedList();
         for(String name : super.getProblem().getMover().getMoveNames()){
             Vertex child = new Vertex(super.getProblem().getMover().doMove(name, (State)u.getData()));
-            if( child != null && !occursOnPath(child, u)){
-                child.setData(u);
-                child.setData(list.get(list.indexOf(u)+1).getData());
+            if( child.getData() != null && !occursOnPath(child, u)){
+                //child.setData(super.getSolution().next().getData());
+                child.setPredecessor(u);
                 list.add(child);
+                System.out.println("Add");
             }
             
         }
