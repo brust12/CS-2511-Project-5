@@ -3,6 +3,7 @@ package framework.solution;
 import framework.graph.Vertex;
 import framework.problem.Problem;
 import java.util.ArrayList;
+import java.util.Deque;
 import java.util.List;
 
 
@@ -22,6 +23,8 @@ public class StateSpaceSolver extends Solver {
      */
     public StateSpaceSolver(Problem problem, boolean bfs) {
         super(problem);
+        this.bfs = bfs;
+        
         /* you must provide */
     }
     
@@ -81,4 +84,6 @@ public class StateSpaceSolver extends Solver {
     }
     
     /* private instance fields here */
+    private boolean bfs;
+    private Deque<Vertex> children;
 }
