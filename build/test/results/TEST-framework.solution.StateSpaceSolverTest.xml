@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="1" failures="1" hostname="DESKTOP-65EE91F" name="framework.solution.StateSpaceSolverTest" skipped="0" tests="3" time="0.125" timestamp="2017-11-07T03:09:28">
+<testsuite errors="2" failures="0" hostname="DESKTOP-65EE91F" name="framework.solution.StateSpaceSolverTest" skipped="0" tests="3" time="0.125" timestamp="2017-11-07T06:12:32">
   <properties>
     <property name="netbeans.autoupdate.country" value="US" />
     <property name="javafx.binarycss" value="false" />
@@ -46,7 +46,7 @@
     <property name="user.name" value="riley" />
     <property name="copylibs.rebase" value="true" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner framework.solution.StateSpaceSolverTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\riley\Desktop\SAD\ProblemSolver\build\test\results\TEST-framework.solution.StateSpaceSolverTest.xml crashfile=C:\Users\riley\Desktop\SAD\ProblemSolver\build\junitvmwatcher942586763301202135.properties propsfile=C:\Users\riley\Desktop\SAD\ProblemSolver\build\junit7109623732292172205.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner framework.solution.StateSpaceSolverTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\riley\Desktop\SAD\ProblemSolver\build\test\results\TEST-framework.solution.StateSpaceSolverTest.xml crashfile=C:\Users\riley\Desktop\SAD\ProblemSolver\build\junitvmwatcher5370437935697731941.properties propsfile=C:\Users\riley\Desktop\SAD\ProblemSolver\build\junit3801731154388594775.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -81,7 +81,7 @@
     <property name="javac.debug" value="true" />
     <property name="javadoc.splitindex" value="true" />
     <property name="file.separator" value="\" />
-    <property name="javac.includesfile.binary" value="C:\Users\riley\Desktop\SAD\ProblemSolver\null1856678232" />
+    <property name="javac.includesfile.binary" value="C:\Users\riley\Desktop\SAD\ProblemSolver\null995472774" />
     <property name="libs.junit_4.maven-pom" value="" />
     <property name="javac.test.processorpath" value="C:\Program Files\Java\jdk1.8.0_141\jre/lib/javaws.jar:C:\Program Files\Java\jdk1.8.0_141\jre/lib/deploy.jar:C:\Program Files\Java\jdk1.8.0_141\jre/lib/plugin.jar:build/classes:C:\Program Files\NetBeans 8.2\platform\modules\ext\junit-4.12.jar:C:\Program Files\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar" />
     <property name="netbeans.buildnumber" value="201609300101" />
@@ -342,7 +342,7 @@
     <property name="platform.active" value="default_platform" />
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
   </properties>
-  <testcase classname="framework.solution.StateSpaceSolverTest" name="testSolve" time="0.063">
+  <testcase classname="framework.solution.StateSpaceSolverTest" name="testSolve" time="0.062">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at framework.solution.Solver.search(Solver.java:130)
 	at framework.solution.Solver.solve(Solver.java:91)
@@ -352,9 +352,12 @@
   </testcase>
   <testcase classname="framework.solution.StateSpaceSolverTest" name="testOccursOnPath" time="0.0" />
   <testcase classname="framework.solution.StateSpaceSolverTest" name="testExpand" time="0.0">
-    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
-	at framework.solution.StateSpaceSolverTest.testExpand(StateSpaceSolverTest.java:177)
-</failure>
+    <error message="Index: 0, Size: 0" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at framework.solution.StateSpaceSolver.expand(StateSpaceSolver.java:70)
+	at framework.solution.StateSpaceSolverTest.testExpand(StateSpaceSolverTest.java:176)
+</error>
   </testcase>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

@@ -2,6 +2,7 @@ package framework.solution;
 
 import framework.graph.Vertex;
 import framework.problem.Problem;
+import framework.problem.State;
 import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
@@ -38,6 +39,7 @@ public class StateSpaceSolver extends Solver {
      */
     @Override
     public void add(Vertex v) {
+        
 	/* you must provide */
     }
     
@@ -60,9 +62,20 @@ public class StateSpaceSolver extends Solver {
      */
     @Override
     public List<Vertex> expand(Vertex u) {
-        List<Vertex> list;
-        list = new ArrayList();
-    return list;
+        List<Vertex> list = new ArrayList();
+        for(String name : super.getProblem().getMover().getMoveNames()){
+            Vertex child = new Vertex(super.getProblem().getMover().doMove(name, (State)u.getData()));
+            if( child != null && !occursOnPath(child, u)){
+                child.setData(u);
+                child.setData(list.get(list.indexOf(u)+1).getData());
+                list.add(child);
+            }
+            
+        }
+        return list;
+        
+        
+        
     }
 
     /**
@@ -85,5 +98,5 @@ public class StateSpaceSolver extends Solver {
     
     /* private instance fields here */
     private boolean bfs;
-    private Deque<Vertex> children;
+    private Deque<Vertex> children ;
 }
